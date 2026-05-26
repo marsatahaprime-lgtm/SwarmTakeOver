@@ -1,5 +1,3 @@
-# SwarmTakeOver
-The repository for the paper titled: Swarm Takeover: Authority Contention in Micro-UAV Swarm Command Architectures
 # SwarmTakeover: Authority Contention in Micro-UAV Swarm Command Architectures
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
