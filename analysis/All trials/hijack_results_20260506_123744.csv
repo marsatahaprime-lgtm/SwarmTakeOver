@@ -1,0 +1,2 @@
+timestamp,drone_id,x,y,z,controller,distance_to_path,data_age_seconds,hijack_detected,anomaly_type,max_path_deviation,telemetry_loss_duration,time_to_first_anomaly,hijack_duration
+2026-05-06 12:38:59.351,2,-0.27516308426856995,-0.9275963306427002,1.0014979839324951,CTR-7F3A9C,0.014836915731430034,4.6524436473846436,1,TELEMETRY_LOSS,0.03926121299769054,4.6524436473846436,75.11426377296448,0.10886693000793457

@@ -1,0 +1,1 @@
+timestamp,drone_id,x,y,z,controller,distance_to_path,data_age_seconds,hijack_detected,hijack_duration,max_path_deviation,data_loss_duration,success_metric,anomaly_type

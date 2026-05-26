@@ -1,0 +1,1 @@
+event_id,drone_id,timestamp,anomaly_type,experiment_time,distance_to_path,data_age,max_deviation,telemetry_loss,hijack_duration,success_criteria_met,event_type
