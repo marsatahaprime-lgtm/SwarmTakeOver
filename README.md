@@ -23,12 +23,11 @@ throughout, creating authority contention resolved by packet timing alone.
 
 | Directory | Description | Paper Section |
 |-----------|-------------|---------------|
-| `attack/` | SwarmTakeover framework: parallel scanner, modified commander, multi-drone takeover | §3 |
-| `missions/` | Autonomous delivery missions for Drone 1 (3-waypoint) and Drone 2 (2-waypoint) | §4.1 |
-| `detection/` | Real-time anomaly detection: path deviation monitoring, telemetry loss detection | §4.2, App. A |
-| `analysis/` | Statistical analysis and figure generation for all paper results | §4.3–4.6 |
-| `data/` | Complete 49-trial dataset with TTD, phase, and outcome labels | App. B |
-| `docs/` | Experimental setup guide, hardware requirements, replication notes | — |
+| `attack/` | SwarmTakeover framework: parallel scanner, modified commander, multi-drone takeover
+| `missions/` | Autonomous delivery missions for Drone 1 (3-waypoint) and Drone 2 (2-waypoint)
+| `detection/` | Real-time anomaly detection: path deviation monitoring, telemetry loss detection 
+| `analysis/` | Statistical analysis and figure generation for all paper results 
+|
 
 ## Quick Start
 
