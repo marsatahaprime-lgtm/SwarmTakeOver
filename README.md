@@ -9,7 +9,7 @@ adversarial control.
 
 **Hardware Platform:** 
 Bitcraze Crazyflie 2.1 Brushless
-Lighhouse Positioning System
+and the Lighhouse Positioning System
 
 ---
 
