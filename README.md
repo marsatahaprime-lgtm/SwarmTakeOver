@@ -7,7 +7,9 @@ implementation, experimental dataset, and analysis code for studying
 architectural vulnerabilities in micro-UAV command stacks under concurrent
 adversarial control.
 
-**Hardware Platform:** Bitcraze Crazyflie 2.1 Brushless
+**Hardware Platform:** 
+Bitcraze Crazyflie 2.1 Brushless
+Lighhouse Positioning System
 
 ---
 
@@ -35,15 +37,23 @@ throughout, creating authority contention resolved by packet timing alone.
 
 - Python 3.8+
 - Bitcraze cflib (`pip install cflib`)
-- See `requirements.txt` for full dependency list
+
 
 ### Reproducing Paper Results
 
 ```bash
 git clone [this-repository-url]
 cd swarmtakeover
-pip install -r requirements.txt
-
 # Regenerate all statistics and figures from the raw trial data
-python analysis/analyze_results.py
-python analysis/generate_figures.py
+python3 SwarmTakeOver/analysis/trial1/analyze.py
+python3 SwarmTakeOver/analysis/all_trials/analyze_trials.py
+python3 SwarmTakeOver/analysis/trial1/Fig5_SwarmDeviationDuringAttack.py
+python3 SwarmTakeOver/analysis/trial1/Fig4_AuthorityContestation.py
+python3 SwarmTakeOver/analysis/trial1/Fig3_TimeLapseDroneTrajectories.py
+             
+
+
+
+
+
+
