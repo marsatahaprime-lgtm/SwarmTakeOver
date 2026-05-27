@@ -297,7 +297,7 @@ def main():
         print(f"{row['trial_time']:<15} {ttd1:<12} {ttd2:<12} {row['drone1_phase']:<12} {row['drone2_phase']:<12} {row['drone1_outcome']:<14} {row['drone2_outcome']:<14}")
     
     # Save to CSV
-    output_file = "takeover_cleaned_known_phase.csv"
+    output_file = "takeover_phase.csv"
     df.to_csv(output_file, index=False)
     print(f"\nData saved to: {output_file}")
     
